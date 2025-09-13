@@ -1,2 +1,50 @@
-# Zepto-Retail-Analytics-Suite
-SQL case study for retail analytics using PostgreSQL
+# 🛍️ Zepto Retail Analytics Suite – SQL Case Study
+
+## 📌 Overview
+This project analyzes Zepto’s retail inventory using PostgreSQL. It covers data import, cleaning, schema normalization, business analysis, and advanced SQL techniques.
+
+## 🧱 Schema
+- `categories`: Product categories
+- `products`: Product details
+- `inventory`: Pricing, stock, and discounts
+
+## 🧼 Cleaning
+- Converted paise to rupees
+- Removed invalid entries
+- Calculated actual discount
+
+## 🔄 Transformation
+- Normalized raw data into relational tables
+- Linked products and categories via foreign keys
+
+## 📊 Analysis
+- Out-of-stock detection
+- Revenue estimation
+- Category performance
+- Dead stock identification
+
+## 🧠 Advanced SQL
+- CTEs and window functions
+- Top-N products per category
+- Price segmentation and discount ranking
+
+## 🛠️ Tools Used
+- PostgreSQL
+- pgAdmin
+- Excel (for previewing CSV)
+
+## 📁 Files Included
+- `import_guide.md`: How to import the CSV
+- `schema.sql`: Table creation scripts
+- `cleaning.sql`: Data cleaning steps
+- `transformation.sql`: Data migration logic
+- `analysis.sql`: Business queries
+- `advanced_queries.sql`: Complex SQL insights
+
+## 📈 Learnings
+- SQL joins, aggregates, CTEs, window functions
+- Schema design and data normalization
+- Business-driven analytics
+
+## 🔗 Author
+**Sindhu** – aspiring data analyst passionate about SQL and real-world analytics
